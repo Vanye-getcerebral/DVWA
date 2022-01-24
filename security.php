@@ -120,7 +120,7 @@ $page[ 'body' ] .= "
 	<p>{$phpIdsHtml}</p>
 	[<a href=\"?test=%22><script>eval(window.name)</script>\">Simulate attack</a>] -
 	[<a href=\"ids_log.php\">View IDS log</a>]
-</div>";
+</div><br>"; 
 
 dvwaHtmlEcho( $page );
 
